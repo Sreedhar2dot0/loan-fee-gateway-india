@@ -12,7 +12,7 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 import { LoanApplication } from '../loans/LoanApplicationCard';
 
 interface FeeCollectionModalProps {
